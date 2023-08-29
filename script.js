@@ -72,10 +72,10 @@ function recordColor() {
   let status = document.querySelector(".status");
   if (successValue > failureValue) {
     status.textContent = "You're succeeding at websiting! You've got a whole lot of visitors.";
-    status.style.color = "green";
+    status.style.color = "rgb(0, 255, 0)";
   } else if (failureValue > successValue) {
     status.textContent = "You're failing at websiting! Nobody wants to visit your site.";
-    status.style.color = "red";
+    status.style.color = "";
   } else {
     status.textContent = "You're neither succeeding nor failing at websiting! Very mediocre stuff.";
     status.style.color = "black";

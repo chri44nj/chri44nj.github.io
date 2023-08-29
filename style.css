@@ -2,11 +2,23 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  font-family: "Gluten", cursive;
+}
+
+body {
+  padding-block: 2rem;
+  background-color: grey;
 }
 
 h1 {
   text-align: center;
   margin-bottom: 1ch;
+  color: white;
+}
+
+div,
+p {
+  color: white;
 }
 
 .record {
@@ -19,11 +31,11 @@ h1 {
 }
 
 .success {
-  color: green;
+  color: rgb(0, 255, 0);
 }
 
 .failure {
-  color: red;
+  color: rgb(247, 31, 31);
 }
 
 .status {
