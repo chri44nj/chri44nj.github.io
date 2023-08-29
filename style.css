@@ -1,0 +1,58 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 1ch;
+}
+
+.record {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  margin-bottom: 1ch;
+  font-weight: bold;
+}
+
+.success {
+  color: green;
+}
+
+.failure {
+  color: red;
+}
+
+.status {
+  font-weight: bold;
+  text-align: center;
+  height: 2ch;
+}
+
+.visitorsList {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  gap: 1ch;
+  height: 200px;
+  margin-inline: 1ch;
+  list-style: none;
+}
+
+.barContainer {
+  display: flex;
+  flex-direction: column;
+  width: 4%;
+  gap: 1ch;
+}
+
+.bar {
+  border-top-right-radius: 15px;
+}
+
+.visitors {
+  text-align: center;
+}
