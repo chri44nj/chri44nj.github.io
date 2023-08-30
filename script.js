@@ -75,7 +75,7 @@ function recordColor() {
     status.style.color = "rgb(0, 255, 0)";
   } else if (failureValue > successValue) {
     status.textContent = "You're failing at websiting! Nobody wants to visit your site.";
-    status.style.color = "";
+    status.style.color = "rgb(247, 31, 31)";
   } else {
     status.textContent = "You're neither succeeding nor failing at websiting! Very mediocre stuff.";
     status.style.color = "black";
